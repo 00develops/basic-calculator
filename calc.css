@@ -1,0 +1,67 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d1,.d2,.o1{
+    width: 5vh;
+    height: 3vh;
+    border-radius: 20%;
+  
+}
+.d1,.d2{
+    background-color: rgb(122, 122, 122);
+    color: rgb(255, 249, 249);
+}
+.ops{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 400;
+}
+.button{
+    color: aliceblue;
+    margin-top: 1vh;
+    margin-right: 4vh;
+    margin-top: 5vh;
+    background-color: rgb(21, 146, 188);
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+p{
+    margin-top: 1vh;
+    margin-right: 4vh;
+  
+    color: rgb(15, 90, 106);
+    font-family: "Comic Sans MS", "Comic Sans", cursive; ;
+    font-size: 8vh;
+    font-weight: 100%;
+
+}
+h1{
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    font-style: bold;
+}
+form{
+    /* margin-top: -29vh; */
+    padding: 2vh;
+background-color: rgb(179, 192, 241);
+    height: 23vh;
+    border: #425467 solid 4px;
+border-radius: 10%; 
+box-shadow: 11px 11px 9px rgb(108, 84, 130);
+
+}
+/* .sh{
+    margin-right: -2.7vh;
+    padding: 2vh;
+    background-color:rgb(50, 55, 76);
+        height:23.5vh;
+        border: #33473d solid 2px;
+    border-radius: 3vh; 
+    width: 12vh;   
+    box-shadow: 11px 12px 9px rgb(108, 84, 130);
+    }
+ */
